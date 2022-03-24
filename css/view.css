@@ -1,8 +1,8 @@
 .coprofile{
     position: absolute;
-    width: 1100px;
+    width: 88.5%;;
     height: 2500px;
-    left: 240px;
+    left: 11%;
     top: 75px;
     background: rgba(196, 196, 196, 0.5);
     border-radius: 5px;
@@ -39,8 +39,10 @@
 .coprofile .about{
     position:absolute;
 	top:125px;
-	text-align:justify;
+    text-align: justify;
+    text-justify: inter-word;
 	margin-left:400px;
+    width: 600px;
 	margin-top:50px;
 }
 .coprofile ul{
@@ -155,4 +157,213 @@
 }
 .jobposting span{
     margin:80px;
+}
+
+@media  screen and (max-width:1150px) {
+    .coprofile h1 {
+        font-size: 28px;
+    }
+    .coprofile h2 {
+        font-size: 22px;
+    }
+	.coprofile .coname {
+        margin-left: 350px;
+        font-size: 16px;
+    }
+
+    .coprofile img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .coprofile .about {
+        font-size: 15px;
+        margin-left: 350px;
+        text-align: left;
+        width: 450px;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    .coprofile ul {
+        margin-left: 500px;
+        font-size: 15px;
+    }
+
+    .content-info {
+        margin-left: 40px;
+    }
+
+    .innerform input[type="text"],
+.innerform textarea{
+    width: 500px;
+}
+
+.fields-orientation input[type="email"],
+.fields-orientation input[type="number"]{
+    width: 200px;
+}
+
+.coprofile .jobposting{
+    width: 530px;
+    align-items: center;
+    height: 500px;
+    padding: 10px;
+    padding-left: 5px;
+}
+
+.jobposting .job1,
+.jobposting .job2,
+.jobposting .job3,
+.jobposting .job4{
+    width: 230px;
+    margin-left: 20px;
+    height: 230px;
+    
+}
+}
+
+
+@media  screen and (max-width:915px) {
+    .coprofile h1 {
+        font-size: 25px;
+    }
+    .coprofile h2 {
+        font-size: 18px;
+    }
+	.coprofile .coname {
+        margin-left: 220px;
+    }
+
+    .coprofile .label {
+        font-size: 13px;
+    }
+    .coprofile img {
+        width: 150px;
+        height: 150px;
+        margin-left: 50px;
+    }
+
+    .coprofile .about {
+        font-size: 13px;
+        margin-left: 220px;
+        width: 300px;
+    }
+
+    .coprofile ul {
+        margin-left: 250px;
+        font-size: 15px;
+    }
+
+    .content-info {
+        margin-left: 0px;
+    }
+
+    .innerform input[type="text"],
+.innerform textarea{
+    width: 450px;
+}
+
+.fields-orientation input[type="email"],
+.fields-orientation input[type="number"]{
+    width: 151px;
+}
+
+.coprofile .jobposting{
+    width: 400px;
+    align-items: center;
+    height: 780px;
+    padding: 10px;
+    padding-left: 5px;
+}
+
+.jobposting .job1,
+.jobposting .job2,
+.jobposting .job3,
+.jobposting .job4{
+    width: 365px;
+    margin-left: 20px;
+    height: 180px;
+    
+}
+}
+
+@media  screen and (max-width:600px) {
+    .coprofile h1 {
+        font-size: 20px;
+    }
+    .coprofile h2 {
+        font-size: 15px;
+    }
+
+    .coprofile #rectangle {
+        height: 170px;
+    }
+	.coprofile .coname {
+        margin-left: 150px;
+        margin-top: 100px;
+    }
+
+    .coprofile .label {
+        font-size: 12px;
+    }
+    .coprofile img {
+        width: 100px;
+        height: 100px;
+        margin-left: 30px;
+    }
+
+    .coprofile .about {
+        font-size: 12px;
+        margin-left: 30px;
+        width: 300px;
+    }
+
+    .coprofile ul {
+        margin-left: 100px;
+    }
+    
+
+    .content-info {
+        margin-left: -40px;
+    }
+
+    .innerform input[type="text"],
+.innerform textarea{
+    width: 230px;
+    height: 30px;
+}
+
+.fields-orientation input[type="email"],
+.fields-orientation input[type="number"]{
+    width: 80px;
+    height: 30px;
+    margin-right: -200px;
+}
+
+.fields-orientation .phone {
+    position: absolute;
+    top:0%;
+    margin-left: 150px;
+}
+
+.coprofile .jobposting{
+    width: 230px;
+    align-items: center;
+    height: 780px;
+    padding: 10px;
+    margin-left: -40px;
+}
+
+
+
+.jobposting .job1,
+.jobposting .job2,
+.jobposting .job3,
+.jobposting .job4{
+    width: 190px;
+    margin-left: 20px;
+    height: 180px;
+    
+}
 }
