@@ -1,21 +1,25 @@
 /*----DASHBOARD----*/
 .dshbrd  {
-    position: absolute;
-    width: 1125px;
-    height: auto;
-    left: 220px;
-    top: 75px;
+	width: 95.2%;
     border-radius: 5px;
 	-webkit-border-radius:10px;
 	border:none;
-	background:#E5E5E5;
+	background: rgb(238, 238, 238);
 	box-sizing:border-box;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left:75px;
+    margin-top: 80px;
+	height: auto;
+	padding-left: 10%;
+	padding-top: 10px;
 }
 .statistics{
     position:relative;
     width: 750px;
     height: auto;
-    background: #C4C4C4;
+    background: white;
     margin: 20px;
     padding: 10px;
     border-radius: 10px;
@@ -24,8 +28,8 @@
     position:relative;
     width: 750px;
     height: auto;
-    background: #C4C4C4;
-    margin-left: 20px;
+    background: white;
+    margin: 20px;
     padding: 10px;
     border-radius: 10px;
 }
@@ -33,7 +37,7 @@
     position:relative;
     width: 750px;
     height: auto;
-    background: #C4C4C4;
+    background: white;
     margin: 20px;
     padding: 10px;
     border-radius: 10px;
@@ -41,8 +45,8 @@
 .com_rating .piechart {
     display: block;
     position: relative;
-    width: 125px;
-    height: 125px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     background-image: conic-gradient(
         pink 70deg, 
@@ -55,16 +59,20 @@
 .com_rating li{
     display: flex;
     float: right;
-    margin-left: 30px;
+    margin: 30px;
+    padding:20px;
+    border:2px Solid maroon;
 }
 
 .notifications{
-    position:absolute;
-    top: 20px;
-    left: 10px;
-    width: 280px;
+	float:left;
+	position: relative;
+	width: 339px;
+    top: -1045px;
+	left: 10px;
+    width: 400px;
     height: 600px;;
-    background: #C4C4C4;
+    background: white;
     margin-left: 800px;
     padding: 10px;
     border-radius: 10px;
@@ -100,9 +108,151 @@
 	text-align:right;
 }
 
+
+@media  screen and (max-width: 1450px) {
+	.dshbrd {
+		padding-left: 1%;
+	}
+	.statistics {
+		width: 450px;
+	}
+
+	
+	.com_rating{
+	width: 450px;
+	}
+.em-performance{
+	width: 450px;
+}
+
+.notifications{
+	width: 339px;
+	top: -870px;
+	left: -290px;
+	width: 400px;
+	height: 600px;;
+	background: white;
+	margin-left: 800px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.em-performance{
+    position:relative;
+    width: 400px;
+    height: auto;
+    background: white;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+	margin-top: -390px;
+	margin-left: 510px;
+}
+
+}
+
+@media  screen and (max-width: 1020px) {
+	.dshbrd {
+		padding-left: 1%;
+		height: 1300px;
+	}
+	.statistics {
+		width: 300px;
+	}
+
+	
+	.com_rating{
+	width: 300px;
+	}
+.em-performance{
+	width: 450px;
+}
+
+.notifications{
+	width: 200px;
+	top: -750px;
+	left: -450px;
+	width: 400px;
+	height: 470px;
+}
+
+.em-performance{
+    position:relative;
+    width: 400px;
+    height: auto;
+    background: white;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+	margin-top: -760px;
+	margin-left: 350px;
+}
+
+}
+
+@media  screen and (max-width: 800px) {
+	.dshbrd {
+		height: auto;
+		padding-left: 1%;
+	}
+	.statistics {
+		width: 120px;
+		font-size: 12px;
+	}
+
+	
+	.com_rating{
+	width: 200px;
+	}
+
+	.com_rating ul{
+		align-items:  left;
+		margin-top: -30px;
+		}
+
+	.em-performance{
+		margin-top: 300px;
+	width: 200px;
+	font-size: 12px;
+	}
+
+	.notifications{
+	width: 150px;
+	top: -1382px;
+	left: -630px;
+	height: 380px;
+	font-size: 11px;
+}
+	.notifications h4 {
+		font-size: 15px;
+	}	
+	.notifications li {
+    margin-left: -30px;
+	}
+
+	.com_rating {
+		width: 300px;
+	}
+
+	.em-performance{
+		width: 380px;
+		margin: 2px;
+		padding: 2px;
+		font-size: 14px;
+	}
+	.em-performance table {
+		margin-left: 0px;
+	}
+
+}
+
+
+
+
 @supports (display:grid) {
 
-	@media (min-width:32em) {
+	@media (min-width:1450px) {
+		
 
 		.graph {
 			display:block;
@@ -126,7 +276,8 @@
 				rgba(170,170,170,0.7) 0,
 				rgba(170,170,170,0.7) 1px,
 				transparent 1px,
-				transparent 20%);
+				transparent 20%
+			);
 		}
 
 		.graph tbody:before,
@@ -170,7 +321,7 @@
 			width:100%;
 			font-weight:normal;
 			text-align:center;
-      white-space:nowrap;
+     		 white-space:nowrap;
 			text-indent:0;
 			transform:rotate(-45deg);
 		}
