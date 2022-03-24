@@ -296,6 +296,11 @@
         font-size: 15px;
     }
 
+    .coprofile h3 {
+        font-size: 15px;
+        margin-left: -30px;
+    }
+
     .coprofile #rectangle {
         height: 170px;
     }
