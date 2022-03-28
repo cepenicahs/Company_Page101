@@ -1,10 +1,10 @@
 /*--CONTENT----*/
 .profile{
     position: absolute;
-    width: 90%;
+    width: 85%;
     height: 1200px;
     left: 11%;
-    top: 75px;
+    top: 110px;
     background: rgba(225, 223, 223, 0.5);
     border-radius: 5px;
 	-webkit-border-radius:10px;
