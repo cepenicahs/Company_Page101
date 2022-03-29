@@ -1,6 +1,6 @@
 .coprofile{
     position: absolute;
-    width: 85%;;
+    width: 83%;
     height: 2500px;
     left: 11%;
     top: 110px;
@@ -22,7 +22,7 @@
     position: absolute;
     font-family: Poppins;
     font-weight: bold;
-    margin-top: 113px;
+    margin-top: 133px;
     margin-left: 550px;
 }
 .coprofile img{
@@ -38,7 +38,7 @@
 }
 .coprofile .about{
     position:absolute;
-	top:125px;
+	top:145px;
     text-align: justify;
     text-justify: inter-word;
 	margin-left:400px;
@@ -159,7 +159,7 @@
     margin:80px;
 }
 
-@media  screen and (max-width:1150px) {
+@media  screen and (max-width:1250px) {
     .coprofile h1 {
         font-size: 28px;
     }
@@ -207,7 +207,7 @@
 .coprofile .jobposting{
     width: 530px;
     align-items: center;
-    height: 500px;
+    height: 520px;
     padding: 10px;
     padding-left: 5px;
 }
@@ -224,7 +224,7 @@
 }
 
 
-@media  screen and (max-width:915px) {
+@media  screen and (max-width:1015px) {
     .coprofile h1 {
         font-size: 25px;
     }
@@ -272,7 +272,7 @@
 .coprofile .jobposting{
     width: 400px;
     align-items: center;
-    height: 780px;
+    height: 800px;
     padding: 10px;
     padding-left: 5px;
 }
@@ -288,7 +288,7 @@
 }
 }
 
-@media  screen and (max-width:600px) {
+@media  screen and (max-width:700px) {
     .coprofile h1 {
         font-size: 20px;
     }
@@ -355,7 +355,7 @@
 .coprofile .jobposting{
     width: 230px;
     align-items: center;
-    height: 780px;
+    height: 800px;
     padding: 10px;
     margin-left: -40px;
 }
