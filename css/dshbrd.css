@@ -1,20 +1,21 @@
 /*----DASHBOARD----*/
 .dshbrd  {
-	width: 95.2%;
+	width: 1230px;
     border-radius: 5px;
 	-webkit-border-radius:10px;
 	border:none;
-	background: rgb(238, 238, 238);
+	background: rgba(228, 228, 228, 0.315);
 	box-sizing:border-box;
 	position: absolute;
-	margin-left: auto;
+	margin-left: 10%;
 	margin-right: auto;
 	left:75px;
     margin-top: 80px;
 	height: auto;
-	padding-left: 10%;
 	padding-top: 10px;
 }
+
+
 .statistics{
     position:relative;
     width: 750px;
@@ -23,6 +24,7 @@
     margin: 20px;
     padding: 10px;
     border-radius: 10px;
+	padding-left: 30px;
 }
 .com_rating{
     position:relative;
@@ -64,36 +66,36 @@
     border:2px Solid maroon;
 }
 
-.notifications{
+.dshbrd .notifications{
 	float:left;
 	position: relative;
 	width: 339px;
-    top: -1045px;
+    top: -880px;
 	left: 10px;
     width: 400px;
-    height: 600px;;
+    height: 600px;
     background: white;
     margin-left: 800px;
     padding: 10px;
     border-radius: 10px;
 }
-.notifications ul {
+.dshbrd .notifications ul {
     list-style-type: none;
 }
-.notifications li {
+.dshbrd .notifications li {
     margin: 10px;
 }
-.notifications i {
+.dshbrd .notifications i {
     font-size: 25px;
     margin: 5px;
 }
-.notifications h4 {
+.dshbrd .notifications h4 {
     border-bottom: 2px solid red;
     text-align: center;
     font-size: 20px;
     margin: 5px;
 }
-.notifications a {
+.dshbrd .notifications a {
     color: black;
     text-align: left;
 }
@@ -115,19 +117,20 @@
 	}
 	.statistics {
 		width: 450px;
+		padding-left: 50px;
 	}
 
 	
 	.com_rating{
 	width: 450px;
 	}
-.em-performance{
+	.em-performance{
 	width: 450px;
-}
+	}
 
-.notifications{
+	.dshbrd .notifications{
 	width: 339px;
-	top: -870px;
+	top: -860px;
 	left: -290px;
 	width: 400px;
 	height: 600px;;
@@ -135,9 +138,9 @@
 	margin-left: 800px;
 	padding: 10px;
 	border-radius: 10px;
-}
+	}
 
-.em-performance{
+	.em-performance{
     position:relative;
     width: 400px;
     height: auto;
@@ -145,13 +148,13 @@
     margin: 20px;
     padding: 10px;
     border-radius: 10px;
-	margin-top: -390px;
+	margin-top: -250px;
 	margin-left: 510px;
 }
 
 }
 
-@media  screen and (max-width: 1020px) {
+@media  screen and (max-width: 1220px) {
 	.dshbrd {
 		padding-left: 1%;
 		height: 1300px;
@@ -168,9 +171,9 @@
 	width: 450px;
 }
 
-.notifications{
+.dshbrd .notifications{
 	width: 200px;
-	top: -750px;
+	top: -700px;
 	left: -450px;
 	width: 400px;
 	height: 470px;
@@ -184,20 +187,22 @@
     margin: 20px;
     padding: 10px;
     border-radius: 10px;
-	margin-top: -760px;
+	margin-top: -660px;
 	margin-left: 350px;
 }
 
 }
 
-@media  screen and (max-width: 800px) {
+@media  screen and (max-width: 1000px) {
 	.dshbrd {
 		height: auto;
-		padding-left: 1%;
+		padding-left: 0px;
+		margin-left: 1%;
 	}
 	.statistics {
-		width: 120px;
+		width: 300px;
 		font-size: 12px;
+		padding-left: 30px;
 	}
 
 	
@@ -216,18 +221,19 @@
 	font-size: 12px;
 	}
 
-	.notifications{
-	width: 150px;
-	top: -1382px;
-	left: -630px;
+	.dshbrd .notifications{
+	width: 300px;
+	top: 20px;
+	left: -800px;
 	height: 380px;
 	font-size: 11px;
+	padding-left: 50px;
 }
-	.notifications h4 {
+.dshbrd .notifications h4 {
 		font-size: 15px;
 	}	
-	.notifications li {
-    margin-left: -30px;
+	.dshbrd .notifications li {
+    margin-left: -20px;
 	}
 
 	.com_rating {

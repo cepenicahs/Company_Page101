@@ -538,7 +538,6 @@ header .menu-circle-container #menuButton {
 }
 
 @media screen and (min-width: 1050px) {
-    /* for removing the sliding panel when resized above 1050px width */
 
     header #panel {
         display: none;
